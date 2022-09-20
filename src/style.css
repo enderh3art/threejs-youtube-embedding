@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#play {
+    z-index: 100000;
+    height: 60px;
+    width: 100px;
+    margin: -30px -50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+  }
+  
